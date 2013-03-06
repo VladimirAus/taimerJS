@@ -6,13 +6,13 @@ Pure timer JavaScript plugin
 ### Usage
 
 Include in HTML file and run
-'''javascript
+```javascript
 var t0 = Taimer(15, '', '', null, false);
-'''
+```
 or 
-'''javascript
+```javascript
 var t1 = Taimer(15, 'Timer: ', ' seconds', t1', true);
-'''
+```
 
 ### Usage
 ##### 2013-Mar-06
