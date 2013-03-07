@@ -23,12 +23,17 @@ Taimer(timeLength, prefix, suffix, elementId, reversed)
 - elementId (string): null or HTML of html tag to put timer value in (current refresh rate is 1 second)
 - reversed (boolean): false to start from zero, true to countdown to zero
 
-### Usage
+### Changelog
+##### 2013-Mar-07
+- Multitasking fixed
+- Help updated
 ##### 2013-Mar-06
 - Singleton model with simple display
 
 ### Todo
-- Remove singleton dependancy
-- Pass parameters as object
+- Pass parameters as object including debug
 - Display as timer
 - Pause functionality
+- Start by calling startTimer
+- FIX: doubling in Firefox
+- TEST: Safari, opera, IE

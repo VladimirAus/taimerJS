@@ -5,15 +5,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="viewport" content="width=device-width">
     <meta name="viewport" content="user-scalable = no"> <!--No zoom-->
-
-    <script src="taimer.js"></script>
 </head> 
 <body> 
 <div id="t1"></div>
 <script type="text/javascript" src="taimer.js"></script>
 <script type="text/javascript">
-	//var t0 = Taimer(15, '', '', null, false);
-    var t1 = Taimer(15, 'Timer: ', ' seconds', 't1', true);
+	var t0 = new Taimer(12, 'T', '', null, false);
+    //t0.startTimer();
+    var t1 = new Taimer(15, 'Timer: ', ' seconds', 't1', true);
 </script>
 
 </body>
